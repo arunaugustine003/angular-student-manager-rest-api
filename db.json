@@ -1,0 +1,116 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "imgUrl": "assets/student-1.jpg",
+      "name": "Katie",
+      "surname": "Grand",
+      "dateOfBirth": "2004-06-13",
+      "email": "katie.grand@gmail.com",
+      "phone": "917. 929. 934. 54",
+      "address": "71 Stanley Road London W64 5YU",
+      "teacherIDs": [
+        "T1",
+        "T3"
+      ],
+      "specialization": "Marketing",
+      "rating": "A",
+      "finishReview": "Yes"
+    },
+    {
+      "id": 2,
+      "imgUrl": "assets/student-2.jpg",
+      "name": "Peter",
+      "surname": "Parker",
+      "dateOfBirth": "2005-06-13",
+      "email": "katie.grand@gmail.com",
+      "phone": "917. 929. 934. 54",
+      "address": "71 Stanley Road London W64 5YU",
+      "teacherIDs": [
+        "T7"
+      ],
+      "specialization": "Graphic Designer",
+      "rating": "B",
+      "finishReview": "No"
+    },
+    {
+      "id": 3,
+      "imgUrl": "assets/student-3.jpg",
+      "name": "Campbell",
+      "surname": "Hall",
+      "dateOfBirth": "2002-06-13",
+      "email": "katie.grand@gmail.com",
+      "phone": "917. 929. 934. 54",
+      "address": "71 Stanley Road London W64 5YU",
+      "teacherIDs": [
+        "T7",
+        "T2"
+      ],
+      "specialization": "Marketing",
+      "rating": "B",
+      "finishReview": "Y"
+    },
+    {
+      "id": 4,
+      "imgUrl": "assets/student-4.jpg",
+      "name": "Andrew",
+      "surname": "Bourne",
+      "dateOfBirth": "2006-06-14",
+      "email": "katie.grand@gmail.com",
+      "phone": "917. 929. 934. 54",
+      "address": "71 Stanley Road London W64 5YU",
+      "teacherIDs": [
+        "T1"
+      ],
+      "specialization": "Graphic Designer",
+      "rating": "B",
+      "finishReview": "No"
+    },
+    {
+      "id": 5,
+      "imgUrl": "assets/student-5.jpg",
+      "name": "Nicola",
+      "surname": "Weston",
+      "dateOfBirth": "2002-06-13",
+      "email": "katie.grand@gmail.com",
+      "phone": "917. 929. 934. 54",
+      "address": "71 Stanley Road London W64 5YU",
+      "teacherIDs": [
+        "T1"
+      ],
+      "specialization": "Graphic Designer",
+      "rating": "C",
+      "finishReview": "No"
+    }
+  ],
+  "teachers": [
+    {
+      "name": "Luke Munoz",
+      "id": "T1"
+    },
+    {
+      "name": "Martyna Mayo",
+      "id": "T2"
+    },
+    {
+      "name": "John Doe",
+      "id": "T3"
+    },
+    {
+      "name": "Lorraine Mckay",
+      "id": "T4"
+    },
+    {
+      "name": "Korban Brown",
+      "id": "T5"
+    },
+    {
+      "name": "Peter Smith",
+      "id": "T6"
+    },
+    {
+      "name": "Felix Mclean",
+      "id": "T7"
+    }
+  ]
+}

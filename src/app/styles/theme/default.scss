@@ -1,0 +1,13 @@
+@import "./../variables";
+$default-value-map: (
+  name: "default-theme",
+  text-color: $white-primary,
+  background-color: $blue-primary,
+  button-color: $blue-primary,
+  button-hover-color: $blue-dark,
+  button-text-color: $white-primary,
+  body-bg-color: $white-primary,
+  cancel-button-text-color: $grey-text-cancel,
+  cancel-button-outline-color: $grey-text-outline,
+  cancel-button-hover-color: $white-bg,
+);
