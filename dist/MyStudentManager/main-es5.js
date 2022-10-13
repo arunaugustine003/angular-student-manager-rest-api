@@ -177,7 +177,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var AppComponent = /*#__PURE__*/_createClass(function AppComponent() {
       _classCallCheck(this, AppComponent);
 
-      this.title = 'MyStudentManager';
+      this.title = 'angular-student-manager';
     });
 
     AppComponent.ɵfac = function AppComponent_Factory(t) {
