@@ -1,5 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
-@import "./../../MyStudentManager/src/app/styles/variables";
+@import "./../src/app/styles/variables";
 
 * {
   margin: 0;
@@ -9,11 +9,11 @@
 }
 /* You can add global styles to this file, and also import other style files */
 
-@import "./../../MyStudentManager/src/app/styles/theme/default.scss";
-@import "./../../MyStudentManager/src/app/styles/theme/dark.scss";
-@import "./../../MyStudentManager/src/app/styles/theme/red.scss";
-@import "./../../MyStudentManager/src/app/styles/theme/blue.scss";
-@import "./../../MyStudentManager/src/app/styles/theme/green.scss";
+@import "./../src/app/styles/theme/default.scss";
+@import "./../src/app/styles/theme/dark.scss";
+@import "./../src/app/styles/theme/red.scss";
+@import "./../src/app/styles/theme/blue.scss";
+@import "./../src/app/styles/theme/green.scss";
 
 @function map-get-value($map, $key) {
   @if map-has-key($map, $key) {
