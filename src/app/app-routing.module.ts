@@ -5,6 +5,11 @@ import { NotFoundComponent } from './not-found/not-found.component';
 import { StudentHomeComponent } from './student-home/student-home.component';
 const routes: Routes = [
   {
+    path: '',
+    redirectTo: 'student-home',
+    pathMatch: 'full',
+  },
+  {
     path: 'login',
     component: LoginComponent,
   },
@@ -12,12 +17,6 @@ const routes: Routes = [
     path: 'student-home',
     component: StudentHomeComponent,
   },
-  {
-    path: '',
-    redirectTo: 'student-home',
-    pathMatch: 'full',
-  },
-
   {
     path: '**',
     component: NotFoundComponent,
