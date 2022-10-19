@@ -1,4 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
+import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
@@ -67,7 +68,7 @@ import { DataService } from './core/service/data.service';
     RadioButtonModule,
     MultiSelectModule,
   ],
-  providers: [DataService, DatePipe],
+  providers: [DataService, DatePipe,{provide: LocationStrategy, useClass: HashLocationStrategy}],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
