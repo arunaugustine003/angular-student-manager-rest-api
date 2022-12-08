@@ -12,7 +12,7 @@ export class StudentService {
   constructor(private http: HttpClient) {}
 
   getStudents() {
-    return this.http.get<any>('https://student-manager-db.herokuapp.com/students/').pipe(
+    return this.http.get<any>('https://student-manager-db-by-arun.glitch.me/students/').pipe(
       map((res: any) => {
         return res;
       })
@@ -20,7 +20,7 @@ export class StudentService {
   }
 
   getTeachers() {
-    return this.http.get<any>('https://student-manager-db.herokuapp.com/teachers/').pipe(
+    return this.http.get<any>('https://student-manager-db-by-arun.glitch.me/teachers/').pipe(
       map((res: any) => {
         return res;
       })
@@ -28,7 +28,7 @@ export class StudentService {
   }
 
   deleteStudent(id: number) {
-    return this.http.delete<any>('https://student-manager-db.herokuapp.com/students/' + id).pipe(
+    return this.http.delete<any>('https://student-manager-db-by-arun.glitch.me/students/' + id).pipe(
       map((res: any) => {
         return res;
       })
@@ -42,7 +42,7 @@ export class StudentService {
       }),
     };
     return this.http
-      .post<any>('https://student-manager-db.herokuapp.com/students/', data, httpOptions)
+      .post<any>('https://student-manager-db-by-arun.glitch.me/students/', data, httpOptions)
       .pipe(catchError(this.handleError));
   }
 
@@ -53,7 +53,7 @@ export class StudentService {
       }),
     };
     return this.http
-      .put<any>('https://student-manager-db.herokuapp.com/students/' + data.id, data, httpOptions)
+      .put<any>('https://student-manager-db-by-arun.glitch.me/students/' + data.id, data, httpOptions)
       .pipe(catchError(this.handleError));
   }
 
